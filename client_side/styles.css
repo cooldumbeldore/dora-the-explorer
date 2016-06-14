@@ -1,3 +1,75 @@
 body{
 	background-color:white;
 }
+
+#headers{
+	text-align: center;
+}
+
+#main-header{
+	font-family: Arial;
+	font-size: 30px;
+}
+
+table{
+	border-spacing: 10px;
+	border-collapse: separate;
+	border: 1px solid black;
+
+	margin-left: auto;
+    margin-right: auto;
+
+	align: center;
+	text-align: center;
+	display: table;
+}
+
+
+table thead{
+	vertical-align: middle;
+	border-color: inherit;
+
+}
+
+tr{
+	display: table-row;
+	text-align: center;
+	vertical-align: inherit;
+	border-color: inherit;
+	border: 1px solid black;
+}
+
+td, th{
+	padding: 20px;
+	display: table-cell;
+	vertical-align: inherit;
+	font-family: Arial;
+	font-size: 20px;
+	border: 1px solid black;
+}
+
+.file-name{
+	color:blue;
+	text-decoration: underline;
+}
+
+.file-name:hover{
+	color:red;
+	font-size: 25px;
+}
+
+#menu{
+	text-align: center;
+}
+
+.menu-button{
+	text-align: center;
+	color:green;
+	font-family: Arial;
+	font-size: 20px;
+}
+
+.menu-button:hover{
+	color:red;
+	font-size: 25px;
+}

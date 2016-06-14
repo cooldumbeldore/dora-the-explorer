@@ -3,9 +3,38 @@
 	<head>
 		<title>Cool website</title>
 		<link rel="stylesheet" href="styles.css"/>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
 		<script src="main.js"></script>
+
 	</head>
 	<body>
+	<p id="console"></p>
+	<div id="headers">
+		<div id="main-header">Index of ___</div>
+	</div>
+	<br><br><br>
+	<table id="file-table">
+		<thead>
+			<tr>
+				<th id="name-header">File name</th>
+				<th id="size-header">Size</th>
+				<th id="date-header">Date Modified</th>
+			</tr>
+		</thead>
+		<tbody id="table-body">
+			<tr>
+				<td  onclick="alert(this.class)" class="file-name">bla</td>
+				<td class="file-size">100k</td>
+				<td class="file-date">6/14/16, 8:23:41 AM</td>
+			</tr>
+		</tbody>
+	</table>
+
+	<br><br><br>
+	<div id="menu">
+		<button id="go-back-button" class="menu-button">Go Back</button>
+	</div>
+
 	</body>
 </html>	
 
